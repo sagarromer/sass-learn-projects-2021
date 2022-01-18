@@ -1,10 +1,10 @@
 {
-  "name": "sass",
+  "name": "Restaurant",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node sass -o css scss/main.scss"
+    "watch": "node-sass -o css scss -w"
   },
   "keywords": [],
   "author": "",
