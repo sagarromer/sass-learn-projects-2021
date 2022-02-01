@@ -1,0 +1,112 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem 20rem 5rem;
+    width: 100vw;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    width: 100%;
+}
+
+.card{
+    width: 37rem;
+    height: 45rem;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+
+
+.card-img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: $color-tertiary;
+    border-radius: 0.5rem;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+        border-radius: inherit;
+        transition: opacity 0.3s;
+
+        .card:hover & {
+            opacity: 0.5;
+        }
+
+    }
+    
+}
+
+
+
+// .card:hover .card-img-wrapper img {
+//     opacity: 0.5;
+// }
+
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+
+        
+    h2 {
+        font-family: $font-balooda;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 300;
+        color: $color-card-text;
+    }
+
+    h3 {
+        font-family: $font-muli;
+        font-size: 2rem;
+        font-weight: 500;
+        color: $color-red;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: $font-balooda;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: 300;
+        color: $color-card-text;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        width: 10rem;
+        height: 3rem;
+        background-color: $color-secondary;
+        border: none;
+        font-family: $font-balooda;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        color: $color-card-text;
+        border-radius: 0.3rem;
+        box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+    }
+    
+
+    .card:hover & {
+        bottom: 2rem;
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
