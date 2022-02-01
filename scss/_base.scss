@@ -1,0 +1,29 @@
+body {
+    font-family: $pt-sans-family;
+    margin: 32px;
+    background: $color-description-grey;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 32px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 980px;
+
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;  
+}
+h2.exercise {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+
+
+

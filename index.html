@@ -6,9 +6,104 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700" rel="stylesheet">
-    <title>Restaurant "Georgia"</title>
+    <title>shopping cart</title>
 </head>
 <body>
+    <div class="container">
+        <header id="site-header">
+            <!-- <div class="carttotal">
+                <img src="images/ractivejs.jpg" alt="shopping cart">
+            </div> -->
+            <h1>shopping cart</h1>
+        </header>
+        <section class="cart">
+            <article class="product">
+                
+                <header>
+                    <a class="remove">
+                        <img src="images/ractivejs.jpg" alt="Beginning Ractive.js">
+                        <h3>Remove</h3>
+                    </a>
+                </header>
+
+                <div class="content">
+                    <h1>begining reactjs</h1>
+                    <div class="removebtn">$#10006</div>
+                    <p>Develop websites using the reactjs template-driven UI library. This book is project-oriented and simplifies the process of using Ractive.js to create websites or online applications that are interactive by default.</p>
+                </div>
+
+
+                <footer>
+                    <span class="qt-minus">-</span>
+                    <span class="qt">2</span>
+                    <span class="qt-plus">+</span>         
+                    <div class="small">Selected format: Paperback</div>
+                    <h2 class="full-price">49.98</h2>
+                    <h2 class="price">19.99 each</h2>
+                </footer>
+            </article>
+            <article class="product">
+                <header>
+                    <a class="remove">
+                        <img src="images/materialize.jpg" alt="Materialize">
+                        <h3>Remove</h3>
+                    </a>
+                </header>
+        
+                <div class="content">
+                    <h1>Materialize UI</h1>
+                    <div class="removebtn">&#10006;</div>
+                    <p>This concise step-by-step guide includes the best practices and patterns that help readers of all levels to unearth the potential of Materialize.</p>    
+                </div>
+        
+                <footer>          
+                    <span class="qt-minus">-</span>
+                    <span class="qt">1</span>
+                    <span class="qt-plus">+</span>
+                    <div class="small">Selected format: e-Book</div>
+                    <h2 class="full-price">19.99</h2>
+                    <h2 class="price">19.99 each</h2>
+                </footer>
+            </article>
+            <article class="product">
+                <header>
+                    <a class="remove">
+                        <img src="images/beginningsvg.jpg" alt="Beginning SVG">
+                        <h3>Remove</h3>
+                    </a>
+                </header>
+        
+                <div class="content">
+                    <h1>Beginning SVG</h1>
+                    <div class="removebtn">&#10006;</div>
+                    <p>This book is a project-oriented guide to creating and manipulating scalable vector graphics in the browser for websites or online applications, using little more than a text editor or free software, and the power of JavaScript.</p> 
+                </div>
+        
+                <footer>         
+                    <span class="qt-minus">-</span>
+                    <span class="qt">1</span>
+                    <span class="qt-plus">+</span>
+                    <div class="small">Selected format: Paperback</div>
+                    <h2 class="full-price">29.99</h2>
+                    <h2 class="price">29.99 each</h2>
+                </footer>
+            </article>
+        </section>
+    </div>
+    <footer id="site-footer">
+        <div class="contain clearfix">
+            <div class="left">
+                <h2 class="subtotal"><div>Subtotal:</div><span>99.96</span></h2>
+                <h3 class="tax"><div>Taxes (5%):</div><span>5.00</span></h3>
+                <h3 class="shipping"><div>Shipping:</div><span>6.95</span></h3>
+            </div>
+
+            <div class="right">
+                <h1 class="total">Total: <span>111.91</span></h1>
+                <button>Checkout</button>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
