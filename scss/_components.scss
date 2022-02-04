@@ -13,3 +13,20 @@
     background-color: $color-secondary;
     margin: 0 auto;
 }
+
+.sidebar {
+    
+    @media (max-width: 500px) {
+        width: 100%;
+        right: -100%;
+    }
+}
+
+.change {
+    .hamburger-menu {
+        @media (max-width: 500px) {
+            right: 38rem;
+        }
+        
+    }
+}

@@ -5,6 +5,9 @@
     align-items: center;
     padding: 0 5rem 20rem 5rem;
     width: 100vw;
+    @media (min-width: 1300px) {
+        padding-bottom: 5rem;
+    }
 }
 
 .cards-wrapper {
@@ -12,6 +15,11 @@
     justify-content: space-evenly;
     margin-top: 8rem;
     width: 100%;
+    @media (min-width: 1300px) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
 }
 
 .card{
@@ -20,6 +28,13 @@
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 0.5rem;
     position: relative;
+
+    @media (max-width: 1500px ) {
+        width: 34rem;
+    }
+    @media (max-width: 1300px ) {
+        margin-bottom: 8rem;
+    }
 }
 
 

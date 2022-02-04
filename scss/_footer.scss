@@ -11,6 +11,20 @@
         width: 60%;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1500px) {
+            width: 80%;
+        }
+        @media (min-width: 1000px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 50%;
+        }
+
+    }
+    
+    @media (max-width: 500px) {
+        height: 18rem;
     }
 
 }
@@ -19,6 +33,10 @@
     font-family: $font-balooda;
     font-size: 1.6rem;
     color: $color-footer-text;
+    @media (min-width: 1000px) {
+        order: 1;
+        margin-top: 3rem;
+    }
 }
 
 .social-list {
